@@ -200,6 +200,7 @@ async def help_command(ctx):
 
 # Load extensions and run bot
 async def main():
+    await bot.load_extension("cogs.loot_tracker")
     await bot.start(TOKEN)
 
 asyncio.run(main())
