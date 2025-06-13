@@ -27,49 +27,21 @@ async def tell_joke(ctx):
 
 @bot.command(name="compliment")
 async def compliment(ctx, member: discord.Member):
-    compliment = get_random_response("data/compliments.json")
-    await ctx.send(f"{member.mention}, {compliment}")
+    with open("data/compliments.json", "r", encoding="utf-8") as f:
+        compliments = json.load(f)
 
-@bot.command(name="insult")
-async def insult(ctx, member: discord.Member):
-    if random.random() < 0.2:  # chance to bail
-        await ctx.send("*No, I don't want to keep being mean!*")
+    user_id = str(member.id)
+    if user_id in compliments.get("user_specific", {}):
+        pool = compliments["user_specific"][user_id]
+        # 70% chance for specific, 30% fallback to general
+        if random.random() < 0.7:
+            compliment = random.choice(pool)
+        else:
+            compliment = random.choice(compliments["general"])
     else:
-        insult = get_random_response("data/insults.json")
-        await ctx.send(f"{member.mention}, {insult}")
+        compliment = random.choice(compliments["general"])
 
-
-
-with open("data/misfires.json", "r", encoding="utf-8") as f:
-    misfire_data = json.load(f)
-
-
-# Global variable to store last misfire timestamp
-last_misfire_time = 0
-MISFIRE_COOLDOWN = 60  # seconds
-
-@bot.event
-async def on_message(message):
-    global last_misfire_time
-    
-    if message.author == bot.user:
-        return
-
-    content = message.content.lower()
-
-    # Check cooldown
-    current_time = time.time()
-    if current_time - last_misfire_time >= MISFIRE_COOLDOWN:
-        for item in misfire_data:
-            for trigger in item["triggers"]:
-                if trigger in content:
-                    await message.channel.send(item["response"])
-                    last_misfire_time = current_time
-                    await bot.process_commands(message)
-                    return  # Respond only once per message
-
-    # If still in cooldown, just process commands without misfire
-    await bot.process_commands(message)
+    await ctx.send(f"{member.mention}, {compliment}")
 
 
 @bot.command(name="flashback")
@@ -201,6 +173,9 @@ async def help_command(ctx):
 # Load extensions and run bot
 async def main():
     await bot.load_extension("cogs.loot_tracker")
+    await bot.load_extension("cogs.chaos_magic")
+    await bot.load_extension("cogs.interjections")
+    await bot.load_extension("cogs.insults")
     await bot.start(TOKEN)
 
 asyncio.run(main())
