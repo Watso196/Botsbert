@@ -1,7 +1,42 @@
-[
+{
+  "general": [
     "You shine brighter than my eternal flames.",
     "If I had tear ducts, I'd cry at your beauty.",
     "Your intellect must be arcane in origin.",
     "You're like a +3 weapon—rare, powerful, and highly sought after.",
     "The world is a grave, but you're still blooming."
-]
+  ],
+  "user_specific": {
+    "_comment": [
+        "Oliver/Andy 37935747193372672", 
+        "Droo/Q 421372387892920320", 
+        "Zhujesk/Steve 415917911366959122", 
+        "Al/Dave 210171206492618752", 
+        "Riva/Kendall 939196878766080021"],
+    "37935747193372672": [
+      "You're the reason I haven't exploded from loneliness.",
+      "Your arcane energy is almost comforting. Almost.",
+      "I’d guard your soul even if it meant haunting someone else."
+    ],
+    "421372387892920320": [
+      "You smell like roses. I think. I can't smell. But still.",
+      "You make lichdom look like a step down.",
+      "You once smiled at me, and my flames got brighter."
+    ],
+    "415917911366959122": [
+      "You smell like roses. I think. I can't smell. But still.",
+      "You make lichdom look like a step down.",
+      "You once smiled at me, and my flames got brighter."
+    ],
+    "210171206492618752": [
+      "You smell like roses. I think. I can't smell. But still.",
+      "You make lichdom look like a step down.",
+      "You once smiled at me, and my flames got brighter."
+    ],
+    "939196878766080021": [
+      "You smell like roses. I think. I can't smell. But still.",
+      "You make lichdom look like a step down.",
+      "You once smiled at me, and my flames got brighter."
+    ]
+  }
+}
