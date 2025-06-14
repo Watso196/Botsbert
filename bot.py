@@ -127,28 +127,7 @@ async def roll_dice(ctx, *, dice: str):
             f"{ctx.author.mention} rolled: `{rolls_str}` + {modifier} = **{total}**\n"
             f"{emoji} *{flair}*"
         )
-
-# Load lore data
-with open("data/lore.json", "r", encoding="utf-8") as f:
-    lore_data = json.load(f)
-
-@bot.command(name="lore")
-async def lore_lookup(ctx, *, term: str):
-    key = term.strip().lower()
-    entry = lore_data.get(key)
-
-    if entry:
-        response = (
-            f"*{entry.get('flavor', 'Ah yes... I remember something odd about that.') }*\n"
-            f"**{entry.get('title', term.title())}**\n"
-            f"{entry.get('summary', 'I know this, but the words are gone...')}"
-        )
-    else:
-        response = (
-            f"*Never heard of \"{term}\". You makin' stuff up again, or should I check the dusty side of my skull?*"
-        )
-
-    await ctx.send(response)
+        
 
 @bot.command(name="osbert")
 async def help_command(ctx):
