@@ -158,7 +158,11 @@ async def help_command(ctx):
 
     embed.add_field(
         name="🔮 Chaos Magic",
-        value="`!chaos` – Check for a surge of wild magical energy on Droo's behalf. I also track the DC and roll on the table!\n",
+        value=(
+            "`!chaos` – Check for a surge of wild magical energy on Droo's behalf. I also track the DC and roll on the table!\n",
+            "`!chaos rest` - Reset the DC when you take a long rest.\n",
+            "`!chaos dc` - Check the current Chaos Magic DC."
+        ),
         inline=False
     )
 

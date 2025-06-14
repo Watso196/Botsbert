@@ -68,6 +68,12 @@ class ChaosMagic(commands.Cog):
     async def chaos_dc(self, ctx):
         """Show the current Chaos Magic DC."""
         await ctx.send(f"The current Chaos Magic DC is **{self.dc}**.")
+    
+    @chaos.command(name="rest")
+    async def chaos_rest(self, ctx):
+        """Reset the Chaos Magic DC upon a long rest."""
+        self.dc = BASE_DC
+        await ctx.send(f"Have a good rest! The DC is now **{self.dc}**.")
 
 async def setup(bot):
     await bot.add_cog(ChaosMagic(bot))
