@@ -1,4 +1,18 @@
 {
+  "osbert": {
+    "triggers": ["osbert", "ozzy"],
+    "responses": [
+      "Me??!?!",
+      "Huh? What??",
+      "Yes! Can I help you?",
+      "You called????",
+      "What? What?! What?!?!",
+      "That's my name! I didn't choose it!",
+      "That's me!!!",
+      "I can hear you...",
+      "Yes?????"
+    ]
+  },
   "apprenticeship": {
     "triggers": ["apprentice", "wizard", "mentor", "graduate", "graduated", "lesson", "training"],
     "responses": [

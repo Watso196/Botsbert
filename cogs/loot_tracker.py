@@ -1,4 +1,3 @@
-import discord
 from discord.ext import commands
 import json
 import os
@@ -45,7 +44,7 @@ class LootTracker(commands.Cog):
                 await ctx.send(f"Added **{amount} gp**. New total: {loot['gold']} gp.")
             except (IndexError, ValueError):
                 await ctx.send("Try `!loot add <amount>` — no funny business.")
-        elif sub == "remove":
+        elif sub == "sub":
             try:
                 amount = int(args[0])
                 loot["gold"] = max(0, loot["gold"] - amount)

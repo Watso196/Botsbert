@@ -4,15 +4,15 @@ import json
 import random
 import time
 
-INSULT_COOLDOWN = 30  # 30 seconds per user
-INSULT_BAIL_CHANCE = 0.15
+BASE_COOLDOWN = 30  # Seconds between insults
+MAX_INSULTS_BEFORE_FLUSTERED = 2
+RESET_TIME = 300  # Reset counter if it's been 5 minutes
 
 class OsbertInsults(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.cooldowns = {}  # user_id -> last insult time
+        self.cooldowns = {}  # user_id -> {"last_insult": time, "count": int}
 
-        # Load insults from file
         with open("data/insults.json", "r", encoding="utf-8") as f:
             self.insults = json.load(f)
 
@@ -29,26 +29,30 @@ class OsbertInsults(commands.Cog):
         now = time.time()
         user_id = str(member.id)
 
-        # Cooldown check
-        if user_id in self.cooldowns and now - self.cooldowns[user_id] < INSULT_COOLDOWN:
+        cooldown = self.cooldowns.get(user_id, {"last_insult": 0, "count": 0})
+
+        # Reset count if enough time has passed
+        if now - cooldown["last_insult"] > RESET_TIME:
+            cooldown["count"] = 0
+
+        # Flustered if too many recent insults
+        if cooldown["count"] >= MAX_INSULTS_BEFORE_FLUSTERED and now - cooldown["last_insult"] < BASE_COOLDOWN:
             await ctx.send(random.choice(self.flustered_lines))
             return
 
-        # Bail-out chance
-        if random.random() < INSULT_BAIL_CHANCE:
-            await ctx.send("*No, I don't want to keep being mean!*")
-            return
-
-        # Select insult
+        # Choose insult
         if user_id in self.insults.get("user_specific", {}):
             pool = self.insults["user_specific"][user_id]
             insult = random.choice(pool) if random.random() < 0.7 else random.choice(self.insults["general"])
         else:
             insult = random.choice(self.insults["general"])
 
-        self.cooldowns[user_id] = now
+        cooldown["last_insult"] = now
+        cooldown["count"] += 1
+        self.cooldowns[user_id] = cooldown
+
         await ctx.send(f"{member.mention}, {insult}")
 
-
+# ✅ Setup method so your bot can load the cog
 async def setup(bot):
     await bot.add_cog(OsbertInsults(bot))

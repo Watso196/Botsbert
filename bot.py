@@ -7,14 +7,13 @@ from utils.response_picker import get_random_response
 import asyncio
 import re
 import json
-import time
+from collections import Counter
 
 
 # Set up the bot
 intents = discord.Intents.default()
 intents.message_content = True  # Important for reading messages
 bot = commands.Bot(command_prefix=PREFIX, intents=intents)
-
 
 @bot.event
 async def on_ready():
@@ -78,7 +77,7 @@ async def roll_dice(ctx, *, dice: str):
     modifier = int(match.group(3)) if match.group(3) else 0
 
     if num_dice > 100 or dice_sides > 1000:
-        await ctx.send("That's too many dice! I can't handle the math!!")
+        await ctx.send("That's too many dice! I can't handle the math!!!")
         return
 
     # ADV/DIS handling
@@ -131,21 +130,58 @@ async def roll_dice(ctx, *, dice: str):
 
 @bot.command(name="osbert")
 async def help_command(ctx):
-    help_text = (
-        "*You rang? Here’s what I remember I can do!*\n\n"
-        "**Social Commands:**\n"
-        "• `!joke` – I tell a joke. Quality not guaranteed.\n"
-        "• `!compliment @user` – I say something nice. I love compliments.\n"
-        "• `!insult @user` – I say something mean. But I won't like it!\n"
-        "• `!flashback` – I recall… something. Might be relevant! Might be sad?\n\n"
-        "**Dice Rolling:**\n"
-        "• `!roll d20` – Roll a d20. You can add things like `+3` or use `adv`/`dis`.\n"
-        "• `!roll 2d6+1` – Roll two six-siders and add 1. I do the math so you don’t have to!\n\n"
-        "**Lore Dumping:**\n"
-        "• `!lore <term>` – Ask me about a person, place, or thing. If I’ve heard of it, I’ll talk. If not… eh.\n\n"
-        "*That’s it for now. Updates occur whenever someone updates my memory.*"
+    embed = discord.Embed(
+        title="🧠 Osbert’s Skills",
+        description="*You rang? Here’s what I remember I can do!*",
+        color=discord.Color.blurple()
     )
-    await ctx.send(help_text)
+
+    embed.add_field(
+        name="🎭 Social Commands",
+        value=(
+            "`!joke` – I tell a joke. Quality not guaranteed.\n"
+            "`!compliment @user` – I say something nice. It's fun for everyone!\n"
+            "`!insult @user` – I give someone an insult. But I won't like it!\n"
+            "`!flashback` – I share a randomly recalled memory. Sometimes sad."
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name="🎲 Dice Rolling",
+        value=(
+            "`!roll d20` – Roll a d20. You can also use `adv` or `dis` for advantage/disadvantage.\n"
+            "`!roll 2d6+1` – Roll multiple dice and apply a modifier. I handle the math!"
+        ),
+        inline=False
+    )
+
+    embed.add_field(
+        name="🔮 Chaos Magic",
+        value="`!chaos` – Check for a surge of wild magical energy on Droo's behalf. I also track the DC and roll on the table!",
+        inline=False
+    )
+
+    embed.add_field(
+        name="💰 Loot Management",
+        value=(
+            "`!loot` – View the party’s shared inventory and gold.\n"
+            "`!loot add <item>` – Add an item or gold (e.g., `!loot add 100`).\n"
+            "`!loot remove <item>` – Remove an item from the inventory.\n"
+            "`!loot gold` - Check the current funds.\n"
+            "`!loot add/sub <amount>` – Add or subtract gold from party funds."
+        ),
+        inline=False
+    )
+
+    embed.set_footer(text="That’s all I can recall. I might remember more if someone gave me an update!")
+
+    await ctx.send(embed=embed)
+
+
+@bot.event
+async def on_message(message):
+    await bot.process_commands(message)
 
 
 
@@ -155,6 +191,8 @@ async def main():
     await bot.load_extension("cogs.chaos_magic")
     await bot.load_extension("cogs.interjections")
     await bot.load_extension("cogs.insults")
+
     await bot.start(TOKEN)
+
 
 asyncio.run(main())

@@ -34,7 +34,5 @@ class OsbertMisfires(commands.Cog):
                         self.last_misfire_times[category] = current_time
                         break  # Still only one response per message
 
-        await self.bot.process_commands(message)
-
 async def setup(bot):
     await bot.add_cog(OsbertMisfires(bot))
