@@ -142,7 +142,7 @@ async def help_command(ctx):
             "`!joke` – I tell a joke. Quality not guaranteed.\n"
             "`!compliment @user` – I say something nice. It's fun for everyone!\n"
             "`!insult @user` – I give someone an insult. But I won't like it!\n"
-            "`!flashback` – I share a randomly recalled memory. Sometimes sad."
+            "`!flashback` – I share a randomly recalled memory. Sometimes sad.\n"
         ),
         inline=False
     )
@@ -151,14 +151,14 @@ async def help_command(ctx):
         name="🎲 Dice Rolling",
         value=(
             "`!roll d20` – Roll a d20. You can also use `adv` or `dis` for advantage/disadvantage.\n"
-            "`!roll 2d6+1` – Roll multiple dice and apply a modifier. I handle the math!"
+            "`!roll 2d6+1` – Roll multiple dice and apply a modifier. I handle the math!\n"
         ),
         inline=False
     )
 
     embed.add_field(
         name="🔮 Chaos Magic",
-        value="`!chaos` – Check for a surge of wild magical energy on Droo's behalf. I also track the DC and roll on the table!",
+        value="`!chaos` – Check for a surge of wild magical energy on Droo's behalf. I also track the DC and roll on the table!\n",
         inline=False
     )
 
@@ -169,7 +169,7 @@ async def help_command(ctx):
             "`!loot add <item>` – Add an item or gold (e.g., `!loot add 100`).\n"
             "`!loot remove <item>` – Remove an item from the inventory.\n"
             "`!loot gold` - Check the current funds.\n"
-            "`!loot add/sub <amount>` – Add or subtract gold from party funds."
+            "`!loot add/sub <amount>` – Add or subtract gold from party funds.\n"
         ),
         inline=False
     )
