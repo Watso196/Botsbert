@@ -7,8 +7,10 @@ from utils.response_picker import get_random_response
 import asyncio
 import re
 import json
-from collections import Counter
 
+### TO DO LIST
+# Create a !gossip command - player can ask Osbert about a topic or tell him about something.
+#   He will potentially store their opinion in his gossip responses
 
 # Set up the bot
 intents = discord.Intents.default()
@@ -178,6 +180,17 @@ async def help_command(ctx):
         inline=False
     )
 
+    embed.add_field(
+        name="📝 Remember Info",
+        value=(
+            "`!recall add` - Add a note that Osbert can recall later. Though he may not always recall info right away...\n",
+            "`!recall list - List all of the notes Osbert has been asked to remember.`\n",
+            "`!recall forget <id> - Remove a note that was previously added.`\n",
+            "`!recall <search term> - Search for a specific note that was previously added.`\n",
+        ),
+        inline=False
+    )
+
     embed.set_footer(text="That’s all I can recall. I might remember more if someone gave me an update!")
 
     await ctx.send(embed=embed)
@@ -195,6 +208,7 @@ async def main():
     await bot.load_extension("cogs.chaos_magic")
     await bot.load_extension("cogs.interjections")
     await bot.load_extension("cogs.insults")
+    await bot.load_extension("cogs.recall")
 
     await bot.start(TOKEN)
 
