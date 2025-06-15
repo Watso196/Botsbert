@@ -1,6 +1,9 @@
 {
   "osbert": {
-    "triggers": ["osbert", "ozzy"],
+    "triggers": [
+      "osbert",
+      "ozzy"
+    ],
     "responses": [
       "Me??!?!",
       "Huh? What??",
@@ -14,157 +17,292 @@
     ]
   },
   "apprenticeship": {
-    "triggers": ["apprentice", "wizard", "mentor", "graduate", "graduated", "lesson", "training"],
+    "triggers": [
+      "apprentice",
+      "wizard",
+      "mentor",
+      "graduate",
+      "graduated",
+      "lesson",
+      "training"
+    ],
     "responses": [
-      "I *was* an apprentice once. They said I’d graduate when I could out-drink a fire elemental. I passed. Still didn't graduate.",
-      "You ever sign a contract you didn’t read? Ha ha ha. Me neither. Ha...",
-      "They told me I’d marry Alissa after I passed my conjuration exam. Joke’s on me, I couldn't even hold a pen at that point!",
-      "Training was a blast. Literally. I still smell burnt hair sometimes.", 
+      "I *was* an apprentice once. They said I\u2019d graduate when I could out-drink a fire elemental. I passed. Still didn't graduate.",
+      "You ever sign a contract you didn\u2019t read? Ha ha ha. Me neither. Ha...",
+      "They told me I\u2019d get married after I passed my conjuration exam. Never got to the conjuration part!",
+      "Training was a blast. Literally. I still smell burnt hair sometimes.",
       "I'm so happy I get to be an apprentice again! My life is starting over!",
       "Being an apprentice is great and all but when do I get to be a WIZARD? Huh? I just wanna set things on fire."
     ]
   },
   "family": {
-    "triggers": ["family", "parents", "brother", "mother", "father", "noble"],
+    "triggers": [
+      "family",
+      "parents",
+      "brother",
+      "mother",
+      "father",
+      "noble"
+    ],
     "responses": [
       "My family had me wear a dunce cap when I misbehaved! It was my special cap! I kinda wish I still had it.",
-      "Bertinelli garments are still top-notch. Almost worth the soul-crushing betrayal.",
-      "I had a brother once. He said I wasn’t ‘marketable.’ Whatever that means.",
+      "I had a brother once. He said I wasn\u2019t \u2018marketable.\u2019 Whatever that means.",
       "My family was kinda mean, weren't they...."
     ]
   },
   "bertinelli": {
-    "triggers": ["bertinelli"],
+    "triggers": [
+      "bertinelli"
+    ],
     "responses": [
-        "*Bertinelli... fashion you can die in.* Literally, in my case.",
-        "did you know quality cloth has a finer weave? Not that I've worn clothes in a long time... Except my pot hat! I don't think my father would approve of that.",
-        "So many warehouses... I don't miss those. I like being outside better!"
+      "*Bertinelli... fashion you can die in.* Literally, in my case.",
+      "So many warehouses... I don't miss those. I like being outside better!",
+      "Soooo much clothing. I don't miss the clothing!"
     ]
   },
   "a'ro_defin": {
-    "triggers": ["a'ro", "aro", "defin", "master", "tower", "necromancer", "boss"],
+    "triggers": [
+      "a'ro",
+      "aro",
+      "defin",
+      "master",
+      "tower",
+      "necromancer",
+      "boss"
+    ],
     "responses": [
-      "A’ro said being a skull would help me concentrate. I don't think it helped much... Is that bacon I smell?",
-      "She used to send me on errands. One time I had to find a ‘smiling skull.’ Didn’t realize she meant *me* for weeks! Stupid mirror...",
-      "Don’t say her name too loud. She might still be listening. Or worse, *talking.*",
+      "A\u2019ro said being a skull would help me concentrate. I don't think it helped much... Is that bacon I smell?",
+      "She used to send me on errands. One time I had to find a \u2018smiling skull.\u2019 Didn\u2019t realize she meant *me* for weeks! Stupid mirror...",
+      "Don\u2019t say her name too loud. She might still be listening. Or worse, *talking.*",
       "She got stuck in a gem. Serves her right! She was always fiddling with gems and potions and chains. Never spent any time with me! Selfish."
     ]
   },
   "contracts": {
-    "triggers": ["contract", "deal", "terms", "fine print", "sign", "binding"],
+    "triggers": [
+      "contract",
+      "deal",
+      "terms",
+      "fine print",
+      "sign",
+      "binding"
+    ],
     "responses": [
-        "She said I just needed to sign. Didn’t say I needed to *understand.*",
-        "The ink I signed with smelled like cinnamon. That should’ve been my first clue...",
-        "I wasn’t allowed to keep a copy. She said the words might ‘wake up’ if I stared too long."
+      "She said I just needed to sign. Didn\u2019t say I needed to *understand.*",
+      "The ink I signed with smelled like cinnamon. That should\u2019ve been my first clue...",
+      "I wasn\u2019t allowed to keep a copy. She said the words might \u2018wake up\u2019 if I stared too long.",
+      "A contract?!?! AAAHHHHH"
     ]
-    },
+  },
   "shadowfell": {
-    "triggers": ["shadowfell", "void", "darkness", "stalker", "shadow"],
+    "triggers": [
+      "shadowfell",
+      "void",
+      "darkness",
+      "stalker",
+      "shadow"
+    ],
     "responses": [
-      "The Shadowfell’s like soup. Cold, flavorless, and somehow still clings to your bones.",
-      "You know how some places feel like they remember pain? That’s the *whole plane.*",
-      "I saw a Nightstalker once. I couldn't find its eyes. Still watched me cry though.",
-      "They say the Shadowfell drains your hope. But honestly? A’ro did that faster. She should be running the place."
+      "The Shadowfell\u2019s like soup. Cold, flavorless, and somehow still clings to your bones.",
+      "You know how some places feel like they remember pain? That\u2019s the *whole plane.*",
+      "I saw a Nightstalker once. It totally had me *rattled*!",
+      "They say the Shadowfell drains your hope. But honestly? A\u2019ro did that faster. She should be running the place!"
     ]
   },
   "planar": {
-    "triggers": ["plane", "teleport", "rift", "portal", "tether", "weave", "divide", "pocket plane", "planar", "interplanar", "planes", "planeshift"],
+    "triggers": [
+      "plane",
+      "teleport",
+      "rift",
+      "portal",
+      "tether",
+      "weave",
+      "divide",
+      "pocket plane",
+      "planar",
+      "interplanar",
+      "planes",
+      "planeshift"
+    ],
     "responses": [
-      "I once got untethered mid-teleport. Landed in a pocket plane full of chairs. Just… chairs. Useless to me!",
-      "Transcosmic Divide? I’m *divided* about it myself. Get it? …No?",
-      "Don’t try interplanar travel without snacks. Or insurance. Trust me.",
-      ""
+      "I once got untethered mid-teleport. Landed in a pocket plane full of chairs. Just\u2026 chairs. Useless to me!",
+      "Transcosmic Divide? I\u2019m *divided* about it myself. Get it? \u2026No?",
+      "Planes are weird. Why can't we all just live in the same place???",
+      "Oh no, I don't want to talk about planes anymore. A'ro did that ALL THE TIME."
     ]
   },
-    "transcosmic_divide": {
-    "triggers": ["transcosmic", "divide", "cosmic boundary", "rift between planes", "outer planes", "cosmic divide", "magic wall"],
+  "transcosmic_divide": {
+    "triggers": [
+      "transcosmic",
+      "divide",
+      "cosmic boundary",
+      "rift between planes",
+      "outer planes",
+      "cosmic divide",
+      "magic wall"
+    ],
     "responses": [
-        "I've heard crossing the Divide feels like being forgotten *in reverse.*",
-        "A’ro said the threads of fate fray at the edge of the Divide. I asked if mine were frayed. She said, ‘They’re *ash.*’"
+      "I've heard crossing the Divide feels like being forgotten *in reverse.*",
+      "A\u2019ro said the threads of fate fray at the edge of the Divide. I asked if mine were frayed. She said, \u2018They\u2019re *ash.*\u2019"
     ]
-    },
+  },
   "hags": {
-    "triggers": ["hag", "matriarch", "wife of woe", "wives of woe", "coven", "suffering", "chain"],
+    "triggers": [
+      "hag",
+      "matriarch",
+      "wife of woe",
+      "wives of woe",
+      "coven",
+      "suffering",
+      "chain"
+    ],
     "responses": [
-      "The Matriarch’s voice sounds like boiling teeth. Not metaphorical. I heard *teeth.*",
-      "If a hag offers you soup, *lie.* Say you’re full. Say you’re dead.",
-      "Chains that feed on suffering? Sounds like Tuesday.",
-      "There were three of them, right? One wrote, one seduced, and one always whispered. She was the creepiest."
+      "The Matriarch\u2019s voice sounds like boiling teeth.",
+      "If a hag offers you soup, *lie.* Say you\u2019re full. Say you\u2019re dead.",
+      "Chains that feed on suffering? Sounds like Tuesday!",
+      "There were three of them, right? One wrote, one seduced, and one always whispered. She was the creepiest.",
+      "A HAG you say??? My least favorite creature."
     ]
   },
   "dame": {
-    "triggers": ["the dame", "dame", "third wife", "third sister", "last hag", "third hag"],
+    "triggers": [
+      "dame",
+      "third wife",
+      "third sister",
+      "last hag",
+      "third hag"
+    ],
     "responses": [
-        "They say she keeps her husbands strong and her secrets stronger.",
-        "She smells like lavender and regret. Don’t ask how I know... Okay I don't know, it's just a guess!",
-        "One of A'ro’s books had her sigil hidden in the margins. Made my teeth itch. Forced myself to forget it immediately!",
-        "I think the Matriarch was scared of her."
+      "I heard she keeps her husbands strong and her secrets stronger.",
+      "She smells like lavender and regret. Don\u2019t ask how I know... Okay I don't know, it's just a guess!",
+      "One of A'ro\u2019s books had her sigil hidden in the margins. Made my teeth itch. Forced myself to forget it immediately!"
     ]
-    },
+  },
   "xuresh": {
-    "triggers": ["xuresh", "drowned god", "chained god"],
+    "triggers": [
+      "xuresh",
+      "drowned god",
+      "chained god"
+    ],
     "responses": [
-        "Xuresh didn’t *sink.* He was *lowered.* On purpose. By his own father.",
-        "Chained under the waves, dreaming in salt. That’s what they say. But if dreams can *leak*, so can he...",
-        "They say the Drowned God speaks through broken hulls and swallowed lungs. Are you willing to listen? Not to me, to him! Bonehead."
+      "He didn\u2019t *sink.* He was *lowered.* On purpose. By his own father.",
+      "Chained under the waves, dreaming in salt. That\u2019s what they say. But if dreams can *leak*, so can he...",
+      "They say the Drowned God speaks through broken hulls and swallowed lungs. Are you willing to listen? Not to me, to him! Bonehead."
     ]
   },
   "inner_planes": {
-    "triggers": ["inner planes", "feywild", "material plane", "winter court", "summer court"],
+    "triggers": [
+      "inner planes",
+      "feywild",
+      "winter court",
+      "summer court"
+    ],
     "responses": [
-        "The feywild is all light and laughter—until the teeth come out.",
-        "The material plane? You’re standing on it. Hope it doesn’t notice.",
-        "Summer smiles while Winter whispers. That’s how they keep the gods confused.",
-        "No gods in the Inner Planes. Just echoes and watchers and old rules everyone forgot about. That's what A'ro said at least."
+      "The feywild is all light and laughter\u2014until the teeth come out.",
+      "You know ou\u2019re standing on the material plane? Hope it doesn\u2019t notice.",
+      "Summer smiles while Winter whispers. That\u2019s how they keep the gods confused.",
+      "No gods in the Inner Planes. Just echoes and watchers and old rules everyone forgot about. That's what A'ro said at least!"
     ]
   },
-    "hot_fire": {
-    "triggers": ["fire", "hot", "burn", "cold", "flame", "heat"],
+  "hot_fire": {
+    "triggers": [
+      "fire",
+      "hot",
+      "burn",
+      "cold",
+      "flame",
+      "heat"
+    ],
     "responses": [
-        "Oh, you’re hot? *TELL ME ABOUT IT.*",
-        "I don’t sleep because I *am* fire. That’s science, probably.",
-        "No, I don’t feel warm. I radiate *emotional warmth*, thank you very much.",
-        "One time a bard called me 'smoking.' I still blush when I remember.",
-        "I never get cold any more! One of the few things I don't miss.",
-        "Flames are pretty... Does that mean I'm pretty? Am I still pretty?"
+      "Oh, you\u2019re hot? *TELL ME ABOUT IT.*",
+      "One time a bard called me 'smoking.' I still blush when I remember.",
+      "I never get cold any more! One of the few things I don't miss.",
+      "Flames are pretty... Does that mean I'm pretty? Am I still pretty?"
     ]
   },
-    "skeleton": {
-    "triggers": ["skeleton", "bones", "skull", "flesh", "skin", "head"],
+  "skeleton": {
+    "triggers": [
+      "skeleton",
+      "bones",
+      "skull",
+      "flesh",
+      "skin",
+      "head"
+    ],
     "responses": [
-        "I had a body once. Pretty sure. Lots of elbows, if I recall.",
-        "Flesh is overrated. Except for the parts that blink. I miss blinking. Seeing all the time is exhausting.",
-        "Ever sneeze with no nose? It’s more vibration than air.",
-        "Yes, I’m a floating skull. No, I don’t *bite*. Anymore. Not after that gem thing... yeesh.",
-        "Do you know how many teeth a skull has? I do. I counted. Repeatedly.Being at a tower all alone for hundreds of years is boring.",
-        "I can't remember what it's like having all those fingers. Is it weird?"
+      "I had a body once. Pretty sure. Lots of elbows, if I recall.",
+      "Flesh is overrated. Except for the parts that blink. I miss blinking. Seeing all the time is exhausting.",
+      "Ever sneeze with no nose? It\u2019s more vibration than air.",
+      "Yes, I\u2019m a floating skull. No, I don\u2019t *bite*. Anymore. Not after that gem thing... yeesh.",
+      "Do you know how many teeth a skull has? I do. I counted. Repeatedly. Being at a tower all alone for hundreds of years is boring.",
+      "I can't remember what it's like having all those fingers. Is it weird? They look weird...",
+      "I miss having a body sometimes... life isn't as full without touching or tasting things. Like rocks!"
     ]
-    },
-    "magic": {
-        "triggers": ["magic", "spell", "arcane", "sorcery", "cantrip"],
-        "responses": [
-            "Magic is like soup: Best when bubbling, and always a little dangerous.",
-            "I once cast a spell backwards. Created a goat. Named it Greg. A'ro was super unhappy about it. Haven't seen Greg after becoming undead.",
-            "A’ro told me magic listens. I hope it’s not *listening now.* AHHH, STOP LISTENING TO ME!",
-            "Some spells work because you believe. Others because you lie really convincingly!",
-            "I memorized six spells once. Forgot five when I sneezed too hard.",
-            "Magic’s not supposed to itch? Why does mine *itch??*",
-            "I wish I had ever learned how to do magic well... Wait, Fireball is magic right? That counts??",
-            "Can someone please explain to me why magic is so common when people get it wrong all the time? Wait, that's just me?"
-        ]
-    },
-    "food": {
-    "triggers": ["food", "pie", "eat", "taste", "hunger", "dinner", "lunch", "breakfast"],
+  },
+  "magic": {
+    "triggers": [
+      "magic",
+      "spell",
+      "arcane",
+      "sorcery",
+      "cantrip"
+    ],
     "responses": [
-        "I can’t taste anymore. But I remember *blueberry pie*. I *remember.*",
-        "Once tried to eat a cinnamon roll out of nostalgia. Set the tavern on fire. Worth it.",
-        "Don’t talk to me about stew. I *miss* stew. The broth… the chunks… *the chunks!*",
-        "I can’t digest anything. Not even gossip. Wait, no, tell me gossip, I think I like it!",
-        "You ever dream of pie? No? Just me?",
-        "*Food is love. Hunger is memory.* I heard a ghost say that once. Or maybe it was me?",
-        "Ugh, I want some pie. Someone FEED ME PIE!",
-        "I miss being able to taste food. I remember it being really nice..."
+      "Magic is like soup: Best when bubbling, and always a little dangerous.",
+      "I once cast a spell backwards. Created a goat. Named it Greg. A'ro was super unhappy about it. Haven't seen Greg after becoming undead.",
+      "A\u2019ro told me magic listens. I hope it\u2019s not *listening now.* AHHH, STOP LISTENING TO ME!",
+      "Some spells work because you believe. Others because you lie really convincingly!",
+      "I memorized six spells once. Forgot five when I sneezed too hard.",
+      "Magic\u2019s not supposed to itch? Why does mine *itch??*",
+      "I wish I had ever learned how to do magic well... Wait, Fireball is magic right? That counts??"
     ]
-    }
-
+  },
+  "food": {
+    "triggers": [
+      "food",
+      "pie",
+      "eat",
+      "taste",
+      "hunger",
+      "dinner",
+      "lunch",
+      "breakfast"
+    ],
+    "responses": [
+      "I can\u2019t taste anymore. But I remember *blueberry pie*. I *remember.*",
+      "Once tried to eat a cinnamon roll out of nostalgia. Set the tavern on fire. Worth it.",
+      "Don\u2019t talk to me about stew. I *miss* stew. The broth\u2026 the chunks\u2026 *the chunks!*",
+      "I can\u2019t digest anything. Not even gossip. Wait, no, tell me gossip, I think I like it!",
+      "You ever dream of pie? No? Just me?",
+      "*Food is love. Hunger is memory.* I heard a ghost say that once. Or maybe it was me?",
+      "Ugh, I want some pie. Someone FEED ME PIE!",
+      "I miss being able to taste food. I remember it being really nice..."
+    ]
+  },
+  "matriarch": {
+    "triggers": [
+      "matriarch"
+    ],
+    "responses": [
+      "_I remember her and her twisted words to A'ro. If I had the power I'd kill her._"
+    ]
+  },
+  "self": {
+    "triggers": [
+      "osbert",
+      "self",
+      "me"
+    ],
+    "responses": [
+      "_He's full of self-loathing and sorrow baked into him by his past, and wonders if he'll ever overcome it._"
+    ]
+  },
+  "dragons": {
+    "triggers": [
+      "dragon",
+      "black dragon"
+    ],
+    "responses": [
+      "I heard about a black dragon once... He burned down a village near my home! Not a nice guy. Probably wasn't Mandrasanth though!"
+    ]
+  }
 }
