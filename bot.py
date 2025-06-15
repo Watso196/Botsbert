@@ -183,10 +183,10 @@ async def help_command(ctx):
     embed.add_field(
         name="📝 Remember Info",
         value=(
-            "`!recall add` - Add a note that Osbert can recall later. Though he may not always recall info right away...\n",
-            "`!recall list - List all of the notes Osbert has been asked to remember.`\n",
-            "`!recall forget <id> - Remove a note that was previously added.`\n",
-            "`!recall <search term> - Search for a specific note that was previously added.`\n",
+            "`!recall add` - Add a note that Osbert can recall later. Though he may not always recall info right away...\n"
+            "`!recall list - List all of the notes Osbert has been asked to remember.`\n"
+            "`!recall forget <id> - Remove a note that was previously added.`\n"
+            "`!recall <search term> - Search for a specific note that was previously added.`\n"
         ),
         inline=False
     )
