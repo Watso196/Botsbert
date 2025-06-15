@@ -34,11 +34,7 @@ async def compliment(ctx, member: discord.Member):
     user_id = str(member.id)
     if user_id in compliments.get("user_specific", {}):
         pool = compliments["user_specific"][user_id]
-        # 70% chance for specific, 30% fallback to general
-        if random.random() < 0.7:
-            compliment = random.choice(pool)
-        else:
-            compliment = random.choice(compliments["general"])
+        compliment = random.choice(pool)
     else:
         compliment = random.choice(compliments["general"])
 
@@ -53,7 +49,7 @@ async def flashback(ctx):
     # 50% chance of a follow-up
     if random.random() < 0.35:
         follow_ups = [
-            "Anyway, want to see me eat a bug? They always come out black!",
+            "Anyway, want to see me eat a bug??",
             "Wait, was that out loud??",
             "Ha ha ha! Emotions are weird.",
             "Did I tell you I once swallowed a key? Never found it.",

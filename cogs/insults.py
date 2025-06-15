@@ -43,7 +43,7 @@ class OsbertInsults(commands.Cog):
         # Choose insult
         if user_id in self.insults.get("user_specific", {}):
             pool = self.insults["user_specific"][user_id]
-            insult = random.choice(pool) if random.random() < 0.7 else random.choice(self.insults["general"])
+            insult = random.choice(pool)
         else:
             insult = random.choice(self.insults["general"])
 
