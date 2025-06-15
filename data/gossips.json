@@ -1,201 +1,215 @@
 {
-    "oliver": [
-      "He\u2019s got charm and money! But I think he's always kind of been missing love...",
-      "I heard his patron\u2019s, like, super old! I don't think I could date someone as young as him... I'm super old, too! IT would be weird...",
-      "He's so lucky! I'm jealous of him. I wish I had some of that luck when I was younger. Sometimes I wonder if he knows how valuable it is.",
-      "He's so SASSY! It's fun, until he's mad at me...",
-      "Hmmm, we could be better friends? I dunno how to make that happen though.",
-      "Sometimes I wonder if he likes me or not? Then again, he kinda acts that way with everyone. I'm sure it's fine!"
-    ],
-    "al": [
-      "If guilt burned calories, Al would be a skeleton too!",
-      "Sometimes he looks around suddenly like someone said something to him, and then doesn't see anything... I think maybe he needs more attention! Or maybe more marbles...",
-      "You mean the one who's broke but wants money but hates all of the rich people??? I dunno, no opinions there...",
-      "That bastard shot me with an arrow! I'm glad he's good with a bow but COME ON!",
-      "Al's been a good friend to me for the most part! He never yells at me, which I like.",
-      "Wasn't he flirting with that alchemist a while ago? Did anything ever happen there???"
-    ],
-    "zhujesk": [
-      "She's way better at making her smile less creepy now! Like, the practicing was AWFUL, but it's marginally better!",
-      "I saw her notebook one time and it was full of weird drawings and short little entries. I thought it was cute!",
-      "She\u2019s got the best poker face I\u2019ve ever seen. Then again, I've never seen her play poker! Do you think Zhujesk knows poker??",
-      "I REALLY want to know what the name of her Sea Monster is... Do you think it's, like, Todd?",
-      "Sometimes I want to give her a hug, but then I remember she has scales and I'm just too sensitive for that... Oh also, I don't have a body!!!",
-      "I really don't like when she licks her eyes......."
-    ],
-    "droo": [
-      "Droo\u2019s the reason I remember who I am!",
-      "No one laughs like Droo! Or gets dumped like Droo. THAT was... woof, bad times.",
-      "Do you think her and Avalon will ever get back together?? I'm suspicious...",
-      "I think she might really like Thud... But I also think she'll never say anything...",
-      "Oh my GODS, I can't wait for her to go on her date with Apikai! Droo calls him a 'beefcake'. I don't think I'd like a cake made of beef... But that makes sense because Droo would!",
-      "Droo's my best friend! I can't gossip about her!!!",
-      "Oh, Droo's been mentoring me! I'm not very good yet but she's patient and isn't hitting me with a wand all the time!"
-    ],
-    "riva": [
-      "She's always looking for something to blow up, as long as it doesn't hurt any animals. Especially if it frees them!",
-      "Riva doesn\u2019t talk much, but when she does, usually it's about 'taking down capitalism', whatever that means!",
-      "She\u2019s got a god-turtle sending her messages. Lucky! I used to get mine from a tempermental wizard. What does 'tempermental' mean?",
-      "Riva can turn into SO MANY THINGS now. Sometimes I look at a bird on the ship and wonder.... is it her???",
-      "Oh, Riva gives great dating advice! Not that I need it. I'm promised to be married!"
-    ],
-    "osbert": [
-      "Oh, that guy? I heard he's CRAZY! Like, absolutely lost his mind.",
-      "I dunno, he seems cool, I guess.",
-      "Didn't he used to be on fire??",
-      "I heard he's a GREAT friend!",
-      "Wait... wasn't that the guy who was spying for the Matriarch??? I HATE that guy!!"
-    ],
-    "matriarch": [
-      "You mean the FACE TOUCHER? Hate her guts. If I were offered guts I'd say, 'These aren't the Matriarch's guts, are they?' And if they were I'd say, 'EW!' and smack them away with my mage hand!",
-      "Do you think... She has a pet pig but he's evil???",
-      "She has sisters - according to Oliver all sisters are evil, so THAT must be why she hates people so much!",
-      "Can you explain to me what a 'coven' is again???",
-      "I think the Matriarch was scared of Dame. I don't really remember though!"
-    ],
-    "avalon": [
-      "She\u2019s had a bad time. I think maybe she looks a little older now? Just in the eyes?? It's nice though! It suits her.",
-      "Avalon and Gillian are a thing now. Droo pretends she doesn\u2019t care, but hoo boy, she does!",
-      "She used to live above an inn. Now she lives rent-free in Droo\u2019s head! And rent-free on our boat!! We're so nice to give her multiple places to stay!!!",
-      "Avalon is SOOO nice! She's always fun to play games with!"
-    ],
-    "gillian": [
-      "Gilly\u2019s a really nice guy! I can't believe we almost fought him when we met! He could have DIED! Then I wouldn't have a new friend!",
-      "Sometimes I think Gilly still thinks that his cult is right. He doesn't want to help them, but maybe he thinks someone needs to.",
-      "He trusts Al like a puppy! It's cute. Sometimes I worry about it though. Al knows how to LIE!",
-      "Gilly probably needs therapy... but we don't have time for that! He can figure it out between fights like the rest of us!"
-    ],
-    "siofra": [
-      "She\u2019s ancient, beautiful, and super powerful. Why is she with Oliver again???",
-      "She seems SO BUSY with her job. Boooooring.",
-      "Do you think fae fall in love? My mom always said they were EVIL! I don't know if evil people can love.",
-      "Siofra is weird. Helpful! But still weird.",
-      "Do you think her and Oliver will eventually get MARRIED??? I better be married before them!!!",
-      "She reminds me of A'ro sometimes. So much power in one person."
-    ],
-    "markynisian": [
-      "Where the rich get richer, and the poor become poorer. Until they get a disease and can't afford medicine, that is.",
-      "The taxes are so high even the ghosts are broke.",
-      "It\u2019s not corruption if everyone\u2019s in on it, right?"
-    ],
-    "mandrasanth": [
-      "Droo says he's a god. I've never heard of a god who needed a pile of money???",
-      "...sometimes I worry that he's going to hurt Droo.",
-      "WHY IS HE BONES? I mean, I'm bones, but I'm SUPPOSED to be bones! He's supposed to be a DRAGON!",
-      "I don't like him. He seems mean. I don't hang out with mean people."
-    ],
-    "planes": [
-      "Don\u2019t try interplanar travel without snacks. Or insurance. Trust me.",
-      "A'ro used to visit planes all the time! She said they were 'personal' whatever that means...",
-      "Aren't there outer and inner planes?? Kind of like belly buttons! I wonder if one is uglier than the other, too..."
-    ],
-    "magic": [
-      "Can someone please explain to me why magic is so common when people get it wrong all the time? Wait, that's just me??",
-      "I like magic! It's fun! Until you turn your neighbor into a sheep and don't know how to turn him back and get chased out of the village for the fourth time because all you can do is turn people into sheep....",
-      "Oh, I know a card trick! Would that be the 'magic' you're looking for?",
-      "Hmmmm, I think magic might be dangerous???? A'ro used to say it was 'like a butter knife'. Dunno what she meant by that!"
-    ],
-    "adamas": [
-        "The Adamases have always been shitty. I remember my granddad hating that our bloodlines were crossed!",
-        "Could you explain to me again how mean people get to run SEVERAL ISLANDS? That doesn't seem fair!",
-        "Adamases have always taxed people out the nose. Lucky me I don't have one anymore!"
-    ],
-    "apprentice": [
-        "I'd love to have an apprentice someday! It would be fun to teach a little Osbert how to do magic.",
-        "Droo has been the BEST mentor to me!!! I wish being an apprentice had always been this fun! I probably would have done magic better...",
-        "OH, my apprenticeship? It's going well thank you for asking. (I've always wanted to say that!! Hehehe)"
-    ],
-    "bertinelli": [
-        "Bertinelli garments are still top-notch. Almost worth the soul-crushing betrayal I experienced! Hahaha, what? Betrayal? I don't even know what that word means!!",
-        "My family was nice... I think? They made sure I got the apprenticeship I always wanted!",
-        "It seems like the Bertinelli family isn't as big as it used to be??? I remember my father being at a LOT of court meetings.",
-        "Sometimes I wonder if my brother ever made it into the navy like he wanted to?? It would be nice to see him again...",
-        "They always talked so much about fabric! Did you know quality cloth has a finer weave? Not that I've worn clothes in a long time... Except my pot hat! I don't think my father would approve of that."
-    ],
-    "dame": [
-        "I guess she's rich??? Oh, Al is gonna HATE her!",
-        "Sometimes I wonder if she's anything like the Matriarch. Is she gonna try to touch my face, too?!",
-        "Could she be.... you know... a banker???? I mean she's supposed to have a lot of gold! Wait, do bankers own the gold???",
-        "I always thought a 'dame' was a pretty lady. But if she's anything like the Matriarch.... they got the name wrong.",
-        "A'ro once said 'you never want to meet the Dame, you won't come back.' I wonder if she meant this one???"
-    ],
-    
-    "gwo'dlo": [
-        "Gwo'dlo used to feel like one big curse. Now it's just got a lot of potholes.",
-        "The Matriarch left a mark on that city... but Lakay Ou’s making it weirdly fancy now. You ever see cursed cobblestones lined in gold?",
-        "Everyone in Gwo'dlo seems tense. Like they’re waiting for another hag to pop out of a breadbox.",
-        "The food in Gwo'dlo got way better once we kicked the Matriarch out. Still can't taste it, but I can *smell* ambition now!"
-      ],
-    
-      "lakay ou": [
-        "So expensive. I tried to buy a napkin and ended up in debt.",
-        "They worship ONE god in Lakay Ou. One! What if he’s on break? What then?",
-        "Avalon’s from there, right? Explains why she always smells faintly of cinnamon and condescension.",
-        "It’s a beautiful place. Shame about the egos."
-      ],
-    
-      "ambith": [
-        "Ambith's paper is so expensive, it’s practically arcane scrolls.",
-        "Oh yeah, we definitely didn’t burn anything down in Ambith. *WINK.*",
-        "The Current’s got its claws in everything there. I once saw a street performer disappear mid-juggle. Never trust juggling. It’s a gateway crime.",
-        "Ambith smells like ink, sawdust, and corruption."
-      ],
-    
-      "empyrna": [
-        "Quiet place, Empyrna. I think I was bored *and* traumatized there as a child!",
-        "The kind of town where rumors echo longer than actual conversation.",
-        "Retirement town? More like where joy goes to nap forever.",
-        "They say nothing happens in Empyrna. That’s a lie. People *decay* there."
-      ],
-    
-      "alcohol": [
-        "I miss the *idea* of alcohol. The taste? The buzz? The bad decisions? Mostly the taste.",
-        "Droo says it’s poison. Al says it’s therapy. I say... pass me a flask so I can pretend.",
-        "Once tried to ferment mushrooms in the tower. Result: smoke, regret, and two sentient mold colonies.",
-        "Alcohol makes people funnier. Or louder. Or sadder. Usually all three."
-      ],
-    
-      "prodo": [
-        "The god of lies? I once asked him for a favor and got an invoice instead.",
-        "A’ro used to mutter Prodo’s name while reading contracts. Gives me chills just thinking about it.",
-        "They say his temples don't have doors. Just fine print.",
-        "I think Prodo and the hags get along because they both hate clarity."
-      ],
-      "thud": [
-        "He says like three words a week, but they *matter*.",
-        "Droo stares at Thud like he’s a problem she *wants* to solve.",
-        "Pretty sure Thud has punched a god. Or at least a demigod. Or a rock pretending to be one.",
-        "I once tried to race him. Lost. Still recovering."
-      ],
-    
-      "emer": [
-        "Emer makes potions. And blushing Al. Impressive combo.",
-        "Al talks like he doesn’t care, then gets tongue-tied around her. Classic crush behavior.",
-        "Emer smells like burnt sugar and weird ambition. I trust her. Sort of.",
-        "She's got that 'might poison you, might kiss you' vibe. Very alchemist." 
-      ],
-    
-      "the current": [
-        "The Current’s logo looks like a wave. Or maybe a claw. Or a claw *in* a wave?",
-        "Gilly used to be in it, right? No wonder he knows how to pick locks and dodge questions.",
-        "If Ambith’s a heart, the Current’s its clogged artery.",
-        "They offered me a job once. I think. Might’ve been a threat. Or both?"
-      ],
-    
-      "finders keepers": [
-        "It creaks like it's haunted. Or maybe that's just me?",
-        "Someone needs to teach Oliver how to swab a deck. Or at least not *outsource* it to me!",
-        "Zhujesk keeps catching fish with *her hands*. I’ve never felt so emasculated. And I’m just a head!",
-        "If Riva turns into a shark again, I’m staying in the barrel." 
-      ],
-    
-      "relationships": [
-        "Avalon and Gillian are cute together. Makes Droo furious. It’s *adorable.*",
-        "I *ship* Al and Emer. He says he’s not interested. His cheeks say otherwise.",
-        "Do you think Riva and Zhujesk are friends? Or *survival buddies*? There’s a difference.",
-        "If someone doesn't ask Thud out soon, I'm going to do it myself!" 
-      ],
-    "nero": [
-
-    ]
-  }
+  "oliver": [
+    "He\u2019s got charm and money! But I think he's always kind of been missing love...",
+    "I heard his patron\u2019s, like, super old! I don't think I could date someone as young as him... I'm super old, too! IT would be weird...",
+    "He's so lucky! I'm jealous of him. I wish I had some of that luck when I was younger. Sometimes I wonder if he knows how valuable it is.",
+    "He's so SASSY! It's fun, until he's mad at me...",
+    "Hmmm, we could be better friends? I dunno how to make that happen though.",
+    "Sometimes I wonder if he likes me or not? Then again, he kinda acts that way with everyone. I'm sure it's fine!"
+  ],
+  "al": [
+    "If guilt burned calories, Al would be a skeleton too!",
+    "Sometimes he looks around suddenly like someone said something to him, and then doesn't see anything... I think maybe he needs more attention! Or maybe more marbles...",
+    "You mean the one who's broke but wants money but hates all of the rich people??? I dunno, no opinions there...",
+    "That bastard shot me with an arrow! I'm glad he's good with a bow but COME ON!",
+    "Al's been a good friend to me for the most part! He never yells at me, which I like.",
+    "Wasn't he flirting with that alchemist a while ago? Did anything ever happen there???"
+  ],
+  "zhujesk": [
+    "She's way better at making her smile less creepy now! Like, the practicing was AWFUL, but it's marginally better!",
+    "I saw her notebook one time and it was full of weird drawings and short little entries. I thought it was cute!",
+    "She\u2019s got the best poker face I\u2019ve ever seen. Then again, I've never seen her play poker! Do you think Zhujesk knows poker??",
+    "I REALLY want to know what the name of her Sea Monster is... Do you think it's, like, Todd?",
+    "Sometimes I want to give her a hug, but then I remember she has scales and I'm just too sensitive for that... Oh also, I don't have a body!!!",
+    "I really don't like when she licks her eyes......."
+  ],
+  "droo": [
+    "Droo\u2019s the reason I remember who I am!",
+    "No one laughs like Droo! Or gets dumped like Droo. THAT was... woof, bad times.",
+    "Do you think her and Avalon will ever get back together?? I'm suspicious...",
+    "I think she might really like Thud... But I also think she'll never say anything...",
+    "Oh my GODS, I can't wait for her to go on her date with Apikai! Droo calls him a 'beefcake'. I don't think I'd like a cake made of beef... But that makes sense because Droo would!",
+    "Droo's my best friend! I can't gossip about her!!!",
+    "Oh, Droo's been mentoring me! I'm not very good yet but she's patient and isn't hitting me with a wand all the time!"
+  ],
+  "riva": [
+    "She's always looking for something to blow up, as long as it doesn't hurt any animals. Especially if it frees them!",
+    "Riva doesn\u2019t talk much, but when she does, usually it's about 'taking down capitalism', whatever that means!",
+    "She\u2019s got a god-turtle sending her messages. Lucky! I used to get mine from a tempermental wizard. What does 'tempermental' mean?",
+    "Riva can turn into SO MANY THINGS now. Sometimes I look at a bird on the ship and wonder.... is it her???",
+    "Oh, Riva gives great dating advice! Not that I need it. I'm promised to be married!"
+  ],
+  "osbert": [
+    "Oh, that guy? I heard he's CRAZY! Like, absolutely lost his mind.",
+    "I dunno, he seems cool, I guess.",
+    "Didn't he used to be on fire??",
+    "I heard he's a GREAT friend!",
+    "Wait... wasn't that the guy who was spying for the Matriarch??? I HATE that guy!!",
+    "Osbert thinks Droo is great!"
+  ],
+  "matriarch": [
+    "You mean the FACE TOUCHER? Hate her guts. If I were offered guts I'd say, 'These aren't the Matriarch's guts, are they?' And if they were I'd say, 'EW!' and smack them away with my mage hand!",
+    "Do you think... She has a pet pig but he's evil???",
+    "She has sisters - according to Oliver all sisters are evil, so THAT must be why she hates people so much!",
+    "Can you explain to me what a 'coven' is again???",
+    "I think the Matriarch was scared of Dame. I don't really remember though!"
+  ],
+  "avalon": [
+    "She\u2019s had a bad time. I think maybe she looks a little older now? Just in the eyes?? It's nice though! It suits her.",
+    "Avalon and Gillian are a thing now. Droo pretends she doesn\u2019t care, but hoo boy, she does!",
+    "She used to live above an inn. Now she lives rent-free in Droo\u2019s head! And rent-free on our boat!! We're so nice to give her multiple places to stay!!!",
+    "Avalon is SOOO nice! She's always fun to play games with!"
+  ],
+  "gillian": [
+    "Gilly\u2019s a really nice guy! I can't believe we almost fought him when we met! He could have DIED! Then I wouldn't have a new friend!",
+    "Sometimes I think Gilly still thinks that his cult is right. He doesn't want to help them, but maybe he thinks someone needs to.",
+    "He trusts Al like a puppy! It's cute. Sometimes I worry about it though. Al knows how to LIE!",
+    "Gilly probably needs therapy... but we don't have time for that! He can figure it out between fights like the rest of us!"
+  ],
+  "siofra": [
+    "She\u2019s ancient, beautiful, and super powerful. Why is she with Oliver again???",
+    "She seems SO BUSY with her job. Boooooring.",
+    "Do you think fae fall in love? My mom always said they were EVIL! I don't know if evil people can love.",
+    "Siofra is weird. Helpful! But still weird.",
+    "Do you think her and Oliver will eventually get MARRIED??? I better be married before them!!!",
+    "She reminds me of A'ro sometimes. So much power in one person."
+  ],
+  "markynisian": [
+    "Where the rich get richer, and the poor become poorer. Until they get a disease and can't afford medicine, that is.",
+    "The taxes are so high even the ghosts are broke.",
+    "It\u2019s not corruption if everyone\u2019s in on it, right?"
+  ],
+  "mandrasanth": [
+    "Droo says he's a god. I've never heard of a god who needed a pile of money???",
+    "...sometimes I worry that he's going to hurt Droo.",
+    "WHY IS HE BONES? I mean, I'm bones, but I'm SUPPOSED to be bones! He's supposed to be a DRAGON!",
+    "I don't like him. He seems mean. I don't hang out with mean people."
+  ],
+  "planes": [
+    "Don\u2019t try interplanar travel without snacks. Or insurance. Trust me.",
+    "A'ro used to visit planes all the time! She said they were 'personal' whatever that means...",
+    "Aren't there outer and inner planes?? Kind of like belly buttons! I wonder if one is uglier than the other, too..."
+  ],
+  "magic": [
+    "Can someone please explain to me why magic is so common when people get it wrong all the time? Wait, that's just me??",
+    "I like magic! It's fun! Until you turn your neighbor into a sheep and don't know how to turn him back and get chased out of the village for the fourth time because all you can do is turn people into sheep....",
+    "Oh, I know a card trick! Would that be the 'magic' you're looking for?",
+    "Hmmmm, I think magic might be dangerous???? A'ro used to say it was 'like a butter knife'. Dunno what she meant by that!"
+  ],
+  "adamas": [
+    "The Adamases have always been shitty. I remember my granddad hating that our bloodlines were crossed!",
+    "Could you explain to me again how mean people get to run SEVERAL ISLANDS? That doesn't seem fair!",
+    "Adamases have always taxed people out the nose. Lucky me I don't have one anymore!"
+  ],
+  "apprentice": [
+    "I'd love to have an apprentice someday! It would be fun to teach a little Osbert how to do magic.",
+    "Droo has been the BEST mentor to me!!! I wish being an apprentice had always been this fun! I probably would have done magic better...",
+    "OH, my apprenticeship? It's going well thank you for asking. (I've always wanted to say that!! Hehehe)"
+  ],
+  "bertinelli": [
+    "Bertinelli garments are still top-notch. Almost worth the soul-crushing betrayal I experienced! Hahaha, what? Betrayal? I don't even know what that word means!!",
+    "My family was nice... I think? They made sure I got the apprenticeship I always wanted!",
+    "It seems like the Bertinelli family isn't as big as it used to be??? I remember my father being at a LOT of court meetings.",
+    "Sometimes I wonder if my brother ever made it into the navy like he wanted to?? It would be nice to see him again...",
+    "They always talked so much about fabric! Did you know quality cloth has a finer weave? Not that I've worn clothes in a long time... Except my pot hat! I don't think my father would approve of that."
+  ],
+  "dame": [
+    "I guess she's rich??? Oh, Al is gonna HATE her!",
+    "Sometimes I wonder if she's anything like the Matriarch. Is she gonna try to touch my face, too?!",
+    "Could she be.... you know... a banker???? I mean she's supposed to have a lot of gold! Wait, do bankers own the gold???",
+    "I always thought a 'dame' was a pretty lady. But if she's anything like the Matriarch.... they got the name wrong.",
+    "A'ro once said 'you never want to meet the Dame, you won't come back.' I wonder if she meant this one???"
+  ],
+  "gwo'dlo": [
+    "Gwo'dlo used to feel like one big curse. Now it's just got a lot of potholes.",
+    "The Matriarch left a mark on that city... but I'm hopefull Lakay Ou will fix it up!",
+    "Everyone in Gwo'dlo seems tense. Like they\u2019re waiting for another hag to pop out of a breadbox."
+  ],
+  "lakay ou": [
+    "So expensive. I tried to buy a napkin and went into debt! Never mind that I didn't have any money...",
+    "They worship ONE god in Lakay Ou. One! What if he\u2019s on break? What then???",
+    "Avalon\u2019s from there, right? Explains why she was so shocked by the look of Gwo'dlo.",
+    "It\u2019s a beautiful place. Shame about the EGO that fills that place."
+  ],
+  "ambith": [
+    "Ambith's paper is so expensive!! Any paper they make could be made into scrolls.",
+    "Oh yeah, that place! We definitely didn\u2019t burn anything down in there...",
+    "The Current has more control there than people think. I once saw a street performer disappear mid-juggle! Never trust juggling. It\u2019s a gateway crime.",
+    "Ambith smells like ink, sawdust, and taxes."
+  ],
+  "empyrna": [
+    "Quiet place! I think I was bored *and* traumatized there as a child!",
+    "The kind of town where people share more rumors than conversation.",
+    "Retirement town? More like where joy goes to nap forever!",
+    "They say nothing happens in Empyrna. That\u2019s a lie. People die there every day!"
+  ],
+  "alcohol": [
+    "I miss the *idea* of alcohol. The taste? The buzz? The bad decisions? Mostly the taste.",
+    "Droo says it\u2019s poison. Al says it\u2019s therapy. I just know I used to like it!",
+    "Alcohol makes people funnier! Or louder. Or sadder. Usually all three."
+  ],
+  "prodo": [
+    "Hm, the name is familiar. I think A\u2019ro used to mutter that name while reading contracts...",
+    "I think about him any time I read fine print! Not a good look for Prodo.",
+    "I think Prodo and the hags get along because they both hate clarity."
+  ],
+  "thud": [
+    "He says like three words a week! I don't know if I could have a conversation with him.",
+    "Droo stares at Thud like he\u2019s a problem she *wants* to solve.",
+    "Pretty sure Thud has punched a god. Or at least a demigod. Or a rock pretending to be one. Still impressive!",
+    "I would NOT want to fight, Thud. Something tells me he would LITERALLY crush me."
+  ],
+  "emer": [
+    "Emer makes nice potions! And she makes Al blush. What's not to like?",
+    "Al seems to really like her! Do you think they're dating???",
+    "Emer smells like burnt sugar and weird ambition. I trust her! Sort of.",
+    "Her hair is so RED! I like it. Reminds me of when I was on fire!"
+  ],
+  "the current": [
+    "Gilly used to be in it, right? No wonder he knows how to pick locks and dodge questions.",
+    "Ambith might be better off without them. Or maybe they'd be worse???",
+    "I don't remember them being around before I became a Flameskull... weird, are they new? Do they need a welcome party???"
+  ],
+  "finders keepers": [
+    "It's like home, but it floats! I love being on the boat! HEY I RHYMED!!!",
+    "Someone needs to teach Oliver how to swab a deck. Or at least not *outsource* it to me and my mage hand!",
+    "Zhujesk keeps catching fish with *her hands*. I\u2019ve never felt so jealous of hands...",
+    "If Riva turns into a shark again, I'm going back into Droo's spellbook! I CAN'T be around SHARKS!"
+  ],
+  "relationships": [
+    "Avalon and Gillian are cute together! I think they're both _traumatized_ people with bright futures!",
+    "I *ship* Al and Emer. He says he\u2019s not interested. His cheeks say otherwise... RED!!!",
+    "Do you think Riva and Zhujesk are friends? Or *survival buddies*? There\u2019s a difference!!!"
+  ],
+  "nero": [
+    "Nero sounds like a bad dad. He sent his son here to be TRAPPED? I bet most of us would get along with his son. Team Daddy Problems!",
+    "There are SO many boats in Atolia. No wonder EVERYBODY talks about Nero... I thought maybe he was just hot.",
+    "Empyrna used to have a shrine to Nero. I wonder if it's still there??",
+    ""
+  ],
+  "dream": [
+    "I kind of miss dreaming. It would be nice to shut down for a little while sometimes.",
+    "I think I had a dream once about a man with a tophat! Droo wears a tophat sometimes, do you think that's connected?",
+    "The Shadowfell gives you really terrible dreams... I don't rememeber much but I remember the dream I had while I was there..."
+  ],
+  "gods": [
+    "People say the gods ascended and created all the planes! But A'ro said that this plane existed before them...",
+    "I guess the gods all fight over the Material Plane??? I heard that somewhere...",
+    "The gods seem like they could be a doing a better job, honestly. Orphans, street gangs, and sea monsters? What are they doing???"
+  ],
+  "pie": [
+    "Oh my GODS, I LOVE PIE!!!",
+    "Pie is my favorite!!! Which pie? ALL PIE!",
+    "My mom used to make me pies when I was sick. Pidgeon pie, mmmmm...",
+    "Berry pies are SOOOO good! I used to make them out of the blackberries growing near A'ro's tower. I miss those blackberries...",
+    "PIE! PIE! PIE! PIE! PIE IS THE BEST!",
+    "I really miss tasting pie... Do you think I'll ever taste it again?",
+    "Pie is so good... It's my favorite food! Too bad I can't eat food."
+  ],
+  "family": [
+    "The party is my family! I don't really remember my last one anyway.",
+    "I used to have a brother. He wanted to go into the navy. I don't know if he ever did.",
+    "Family is so important! It's weird to not know my family anymore...",
+    "I like our little family! I feel at home with everyone here."
+  ]
+}

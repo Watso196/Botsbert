@@ -191,6 +191,14 @@ async def help_command(ctx):
         inline=False
     )
 
+    embed.add_field(
+        name=" Gossip",
+        value=(
+            "`!gossip <topic>` - Ask Osbert his opinion on a topic, such as a person or place!\n"
+            "`!gossip <topic> : <your thoughts>` - Tell Osbert your opinion about a topic! He may adopt it as one of his own views.\n"
+        )
+    )
+
     embed.set_footer(text="That’s all I can recall. I might remember more if someone gave me an update!")
 
     await ctx.send(embed=embed)
@@ -209,6 +217,7 @@ async def main():
     await bot.load_extension("cogs.interjections")
     await bot.load_extension("cogs.insults")
     await bot.load_extension("cogs.recall")
+    await bot.load_extension("cogs.gossip")
 
     await bot.start(TOKEN)
 

@@ -21,6 +21,10 @@ class OsbertMisfires(commands.Cog):
         if message.author.bot:
             return
 
+        ctx = await self.bot.get_context(message)
+        if ctx.valid:
+            return  # 🛑 It's a command, skip interjection
+
         content = message.content.lower()
         current_time = time.time()
 
