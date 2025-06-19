@@ -286,16 +286,7 @@
       "_I remember her and her twisted words to A'ro. If I had the power I'd kill her._"
     ]
   },
-  "self": {
-    "triggers": [
-      "osbert",
-      "self",
-      "me"
-    ],
-    "responses": [
-      "_He's full of self-loathing and sorrow baked into him by his past, and wonders if he'll ever overcome it._"
-    ]
-  },
+
   "dragons": {
     "triggers": [
       "dragon",
